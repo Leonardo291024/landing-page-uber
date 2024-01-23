@@ -1,0 +1,26 @@
+header{
+    border-bottom: 1px solid white;
+    padding: 15px 15px;
+}
+
+.container-nav-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.container-nav-grid a{
+    color: white;
+}
+
+.container-nav-grid .btn-registrar{
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 5px;
+}
+
+.container-nav-grid .btn-registrar a{
+    color: black;
+    font-size: 15px;
+}
