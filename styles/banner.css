@@ -1,0 +1,67 @@
+.container-banner{
+    padding: 15px 15px;
+}
+
+.container-banner-div1, .container-banner-div2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-banner-div1 h1{
+    color: white;
+}
+
+.container-banner-div2 h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.container-banner-div2 form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-banner-div2 .container-input-ubicacion{
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px ;
+    background-color: white;
+}
+
+.container-input-ubicacion input{
+    border: none;
+}
+
+.container-input-ubicacion img{
+    width: 20.5px;
+}
+
+.input-destino{
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px 12px ;
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+.container-banner-div2 form button{
+    margin-top: 15px;
+    width: 130px;
+    height: 48px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container-banner-div3 img{
+    width: 100%;
+}
