@@ -1,0 +1,131 @@
+main{
+    background-color: white;
+}
+
+.main-seccion1{
+    padding: 40px 15px;
+}
+
+.main-seccion1 .seccion1-div1 h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.main-seccion1 .seccion1-div2 p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.main-seccion1 .seccion1-div3 button{
+    width: 125px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main-seccion1 .seccion1-div3 h2{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.main-seccion1 .seccion1-div3 img{
+    width: 100%;
+}
+
+.main-seccion2{
+    padding: 40px 15px;
+}
+
+.main-seccion2 .seccion2-div1 h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: rgb(65, 65, 65);
+}
+
+.main-seccion2 .seccion2-div2 p{
+    font-size: 16px;
+    margin-bottom: 15px;   
+}
+
+.main-seccion2 .seccion2-div3 button{
+    width: 125px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main-seccion2 .seccion2-div3 h2{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.main-seccion2 .seccion2-div3 img{
+    width: 100%;
+}
+
+.main-seccion3{
+    padding: 40px 15px;
+}
+
+.main-seccion3 .seccion3-div1 h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.main-seccion3 .seccion3-div2 p{
+    font-size: 16px;
+    margin-bottom: 15px;   
+}
+
+.main-seccion3 .seccion3-div3 button{
+    width: 125px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;   
+}
+
+.main-seccion3 .seccion3-div3 img{
+    width: 100%;
+}
+
+.main-seccion4{
+    background-color: whitesmoke;
+    padding: 40px 15px;
+}
+
+.main-seccion4 .seccion4-div1 h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.main-seccion4 .seccion4-div2 article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rgb(207, 207, 207);
+    margin-bottom: 15px;
+}
+
+.main-seccion4 .seccion4-div2 article h2{
+    font-size: 24px;
+}
