@@ -9,6 +9,7 @@
 
 .container-banner-div1 h1{
     color: white;
+    font-size: 36px;
 }
 
 .container-banner-div2 h2{
@@ -25,7 +26,7 @@
 }
 
 .container-banner-div2 .container-input-ubicacion{
-    width: 70%;
+    height: 60px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -36,6 +37,7 @@
 
 .container-input-ubicacion input{
     border: none;
+    height: 100%;
 }
 
 .container-input-ubicacion img{
@@ -43,7 +45,7 @@
 }
 
 .input-destino{
-    width: 70%;
+    height: 60px;
     border-radius: 8px;
     padding: 10px 12px ;
     background-color: white;
@@ -64,4 +66,22 @@
 
 .container-banner-div3 img{
     width: 100%;
+}
+
+@media (min-width: 768px){
+    .container-banner-div1 h1{
+        font-size: 44px;
+    }
+
+    .container-banner-div2 .container-input-ubicacion{
+        width: 396px;
+    }
+
+    .container-input-ubicacion input{
+        width: 100%;
+    }
+
+    .input-destino{
+        width: 396px;
+    }
 }

@@ -14,7 +14,11 @@ header{
 }
 
 .container-nav-grid .btn-registrar{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 36px;
     background-color: white;
     border-radius: 30px;
     padding: 5px 5px;
@@ -23,4 +27,11 @@ header{
 .container-nav-grid .btn-registrar a{
     color: black;
     font-size: 15px;
+}
+
+@media (min-width: 768px){
+    .container-nav-grid{
+        grid-template-columns: 4fr 1fr 1fr;
+        justify-items: start;
+    }   
 }
