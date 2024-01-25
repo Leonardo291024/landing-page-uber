@@ -16,6 +16,17 @@ main{
     margin-bottom: 15px;
 }
 
+.container-button-comenzar{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-button-comenzar button{
+    margin-right: 15px;
+}
+
 .main-seccion1 .seccion1-div3 button{
     width: 125px;
     height: 60px;
@@ -117,6 +128,10 @@ main{
     margin-bottom: 15px;
 }
 
+.main-seccion4 .seccion4-div2{
+    padding: 20px 20px;
+}
+
 .main-seccion4 .seccion4-div2 article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -128,4 +143,16 @@ main{
 
 .main-seccion4 .seccion4-div2 article h2{
     font-size: 24px;
+}
+
+@media (min-width: 768px){
+    .main-seccion1 .seccion1-div1 h1, .main-seccion2 .seccion2-div1 h1{
+        font-size: 44px;
+    }   
+
+    .main-seccion4 .seccion4-div2 article{
+        grid-template-columns: 1fr 8fr 0fr;
+        justify-items: flex-start;
+        padding: 30px 15px;
+    }
 }
