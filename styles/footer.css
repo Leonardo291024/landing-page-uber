@@ -15,6 +15,10 @@ footer .seccion-footer1 a{
     color: white;
 }
 
+footer .links-footer{
+    display: grid;
+}
+
 .container-links-footer h1, a{
     color: white;
     line-height: 50px;
@@ -30,4 +34,10 @@ footer .seccion-footer1 a{
 .container-links-footer a{
     font-size: 14px;
     font-weight: normal;
+}
+
+@media (min-width: 768px){
+    footer .links-footer{
+        grid-template-columns: 1fr 1fr;
+    }
 }
