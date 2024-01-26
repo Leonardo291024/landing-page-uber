@@ -3,6 +3,7 @@ main{
 }
 
 .main-seccion1{
+    display: grid;
     padding: 40px 15px;
 }
 
@@ -46,11 +47,12 @@ main{
     border-bottom: 1px solid black;
 }
 
-.main-seccion1 .seccion1-div3 img{
+.main-seccion1 .container-image img{
     width: 100%;
 }
 
 .main-seccion2{
+    display: grid;
     padding: 40px 15px;
 }
 
@@ -89,6 +91,7 @@ main{
 }
 
 .main-seccion3{
+    display: grid;
     padding: 40px 15px;
 }
 
@@ -102,7 +105,7 @@ main{
     margin-bottom: 15px;   
 }
 
-.main-seccion3 .seccion3-div3 button{
+.main-seccion3 .seccion3-div2 button{
     width: 125px;
     height: 60px;
     background-color: black;
@@ -154,5 +157,42 @@ main{
         grid-template-columns: 1fr 8fr 0fr;
         justify-items: flex-start;
         padding: 30px 15px;
+    }
+}
+
+@media (min-width: 1024px){
+    .main-seccion1{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+        padding: 40px 70px;
+    }
+
+    .main-seccion1 .seccion1-div1 h1{
+        font-size: 52px;
+    }
+
+    .main-div-grid-1{
+        order: 1;
+    }
+
+    .main-seccion2{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-seccion2 .seccion2-div1 h1{
+        font-size: 52px;
+    }
+
+    .main-seccion3{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-seccion3 .seccion1-div1{
+        order: 1;
     }
 }
