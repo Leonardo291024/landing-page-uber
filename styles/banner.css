@@ -1,4 +1,5 @@
 .container-banner{
+    display: grid;
     padding: 15px 15px;
 }
 
@@ -83,5 +84,18 @@
 
     .input-destino{
         width: 396px;
+    }
+}
+
+@media (min-width: 1024px){
+    .container-banner{
+        gap: 20px;
+        padding: 41px 70px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .container-banner-div1 h1 {
+        font-size: 52px;
     }
 }
