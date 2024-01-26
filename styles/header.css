@@ -5,12 +5,17 @@ header{
 
 .container-nav-grid{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr 1fr;
     align-items: center;
 }
 
-.container-nav-grid a{
+.container-nav-grid .logo{
     color: white;
+    font-size: 20px;
+}
+
+.container-logo .header-links{
+    display: none;
 }
 
 .container-nav-grid .btn-registrar{
@@ -33,5 +38,39 @@ header{
     .container-nav-grid{
         grid-template-columns: 4fr 1fr 1fr;
         justify-items: start;
-    }   
+    } 
+    
+    .container-nav-grid .logo{
+        font-size: 36px;
+    }
+
+    .container-logo .header-links{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    .container-nav-grid{
+        grid-template-columns: 8fr 1fr 1fr;
+    }
+
+    .container-nav-grid .container-logo .logo{
+        font-size: 44px;
+    }
+
+    .container-logo{
+        display: flex;
+    }
+
+    .container-logo .header-links{
+        display: block;
+    }
+
+    .container-logo a{
+        margin-right: 15px;
+    }
+
+    .container-btn-inicio_secion a{
+        margin-left: -10px;
+    }
 }
